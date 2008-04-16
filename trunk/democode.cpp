@@ -243,13 +243,11 @@ void getLines(void)
     num_of_lines = 0;
     for (iter=lines->begin(); iter!=lines->end(); iter++)
     {
-        if(iter->second->getY1()<0)
-        {
-            X1[num_of_lines] = iter->second->getX1();
-            Y1[num_of_lines] = iter->second->getY1();
-            X2[num_of_lines] = iter->second->getX2();
-            Y2[num_of_lines++] = iter->second->getY2();
-        }
+		X1[num_of_lines] = iter->second->getX1();
+        Y1[num_of_lines] = iter->second->getY1();
+        X2[num_of_lines] = iter->second->getX2();
+        Y2[num_of_lines++] = iter->second->getY2();
+        
     }
     
 }
