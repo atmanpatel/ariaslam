@@ -1,0 +1,1 @@
+We design an implement a SLAM algorithm for ActiveMedia Pioneer 3 series of robots using C/C++ and ARIA library.
